@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sales Tracker</string>
+    <string name="share_tracker">Share Tracker</string>
+    <string name="rahul_sheokand_s">Rahul Sheokand’s</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="create_a_new_lead">Create a new Lead</string>
+</resources>
