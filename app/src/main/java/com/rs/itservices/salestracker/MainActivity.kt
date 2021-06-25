@@ -1,17 +1,18 @@
-package co.e.io.sales.tracker.ui
+package com.rs.itservices.salestracker
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import co.e.io.sales.tracker.databinding.ActivityMainBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.tasks.Task
+import com.rs.itservices.salestracker.databinding.ActivityMainBinding
+import com.rs.itservices.salestracker.ui.HomeActivity
 
 /**
  * created by **lovepreetkaur240@gmail.com** 24June,2021
@@ -68,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             val account = completedTask.getResult(ApiException::class.java)
             Toast.makeText(this@MainActivity, "Sign In Successful.", Toast.LENGTH_SHORT).show()
 
-            startActivity(Intent(this,HomeActivity::class.java))
+            startActivity(Intent(this, HomeActivity::class.java))
 
             Log.e("USER PHOTO URL", "handleSignInResult: ${account!!.displayName}")
         } catch (e: ApiException) {

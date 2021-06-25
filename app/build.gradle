@@ -9,7 +9,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "co.e.io.sales.tracker"
+        applicationId "com.rs.itservices.salestracker"
         minSdkVersion 17
         targetSdkVersion 30
         versionCode 1
