@@ -11,6 +11,13 @@
     android:background="@drawable/background_gradient"
     android:layout_height="wrap_content">
 
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/_25sdp"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_height="@dimen/_25sdp"/>
+
     <TextView
         android:fontFamily="sans-serif-medium"
         android:textColor="@color/white"
